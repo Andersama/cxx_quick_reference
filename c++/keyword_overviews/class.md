@@ -15,4 +15,14 @@ class dynamic_array {
 	public:
 	dynamic_array() = default;
 }
+
+class contact  {
+	std::string name;
+	std::string phone_number;
+	std::string address;
+public:
+	std::string& get_name() {return name;}
+	std::string& get_phone_number() {return phone_number;}
+	std::string& get_address() {return address;}
+}
 ```

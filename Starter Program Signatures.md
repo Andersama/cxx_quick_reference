@@ -66,12 +66,11 @@ int APIENTRY WinMain(HINSTANCE hInst, HINSTANCE hInstPrev, PSTR cmdline, int cmd
 	return 0;
 }
 
-```cpp
 int wmain() {
 	return 0;
 }
 // Similar to the standard except uses 16bit wide characters
 int wmain( int argc, wchar_t* argv[] ) {
 	return 0;
-}```
+}
 ```

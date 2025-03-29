@@ -7,9 +7,9 @@ protected
 ```c++
 struct a_struct {
 private:
-	int private_member; // member is now inaccessilbe except to friends
+	int private_member;
 protected:
-	int protected_member;
+	int protected_member; // member is now inaccessible except to friends and any child classes
 public:
 	int public_member;
 }

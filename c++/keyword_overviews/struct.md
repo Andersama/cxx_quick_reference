@@ -16,4 +16,17 @@ class dynamic_array {
 	int sz  = 0;
 	int cap = 0;
 }
+
+struct contact {
+	std::string name;
+	std::string phone_number;
+	std::string address;
+/* The getter functions as per the class example would be only
+be necessary if the members were private
+public:
+	std::string& get_name() {return name;}
+	std::string& get_phone_number() {return phone_number;}
+	std::string& get_address() {return address;}
+	*/*
+}
 ```
